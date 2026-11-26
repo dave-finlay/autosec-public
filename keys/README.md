@@ -1,9 +1,10 @@
-# autosec's public keys
+# Securomatic's public keys
 
-autosec signs basis records with these keys (ECDSA P-256). A key's id
-is the sha256 of its DER-encoded SubjectPublicKeyInfo, given as the
+Securomatic signs basis records with these keys (ECDSA P-256). A key's
+id is the sha256 of its DER-encoded SubjectPublicKeyInfo, given as the
 `hint` in a basis record's bundle. Each file is named for the first 12
-characters of its id.
+characters of its id, and is served at
+`https://securomatic.dev/keys/<file>`.
 
 A product should trust the key it has pinned on its own protected
 branch; this list is for finding a key and checking it from outside.

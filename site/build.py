@@ -1,5 +1,5 @@
 """Builds securomatic.dev from this repository into site/dist, for
-Cloudflare Pages: each Markdown page as HTML (so the basis record's
+Cloudflare (wrangler.jsonc): each Markdown page as HTML (so the basis record's
 predicate type, https://securomatic.dev/basis/v1, is its
 specification), and the keys and the avatar as they are.
 
